@@ -65,6 +65,29 @@ a {
   color: inherit;
 }
 
+/*
+  If the user has expressed their preference for
+  reduced motion, then don't use animations on buttons.
+*/
+@media (prefers-reduced-motion: reduce) {
+  video {
+    display: none;
+  }
+  #reduced-motion-hero {
+    display: inherit;
+  }
+}
+
+/*
+  If the browser understands the media query and the user
+  explicitly hasn't set a preference, then use animations on buttons.
+*/
+@media (prefers-reduced-motion: no-preference) {
+    #reduced-motion-hero {
+    display: none;
+  }
+}
+
 @theme inline {
   --font-heading: var(--font-sans);
   --font-sans: var(--font-sans);
