@@ -1,3 +1,5 @@
+import Hero from "./Hero";
+
 const links = [
   {
     href: "https://github.com/cloudflare/vinext",
@@ -14,12 +16,7 @@ export const revalidate = 300;
 export default function Home() {
   return (
     <main>
-        <h1>H1</h1>
-        <h2>H2</h2>
-        <h3>H3</h3>
-        <h4>H4</h4>
-        <p>p</p>
-        <p><b>b</b></p>
+        <Hero />
     </main>
     // <main className="min-h-screen bg-slate-50 px-6 py-10 text-slate-950">
     //   <section className="mx-auto flex max-w-4xl flex-col gap-8">

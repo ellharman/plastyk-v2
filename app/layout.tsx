@@ -15,10 +15,14 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={cn("font-sans", inter.variable)} suppressHydrationWarning>
-      <ThemeProvider >
-        <body>{children}</body>
-      </ThemeProvider>
+    <html
+      lang="en"
+      className={cn("font-sans", inter.variable)}
+      suppressHydrationWarning
+    >
+      <body>
+        <ThemeProvider> {children}</ThemeProvider>
+      </body>
     </html>
   );
 }

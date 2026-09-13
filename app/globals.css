@@ -44,8 +44,20 @@
   --sidebar-ring: oklch(0.708 0 0);
 }
 
+html {
+  height: 100%;
+  background-color: var(--color-background);
+}
+
 body {
+  min-height: 100%;
   margin: 0;
+  background-color: var(--color-background);
+}
+
+main {
+  flex: 1;
+  justify-items: center;
 }
 
 a {
@@ -86,6 +98,9 @@ a {
   --color-card: var(--card);
   --color-foreground: var(--foreground);
   --color-background: var(--background);
+  --color-plastyk-kiss-red: oklch(0.5598 0.2297 29.23);
+  --color-plastyk-blush-pink: oklch(0.7487 0.1676 358.53); 
+  --color-plastyk-neutral-gray: oklch(0.7284 0 0); 
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
