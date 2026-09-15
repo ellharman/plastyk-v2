@@ -1,10 +1,16 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Inter } from "next/font/google";
 import { cn } from "@/lib/utils";
 import ThemeProvider from "./theme";
+import localFont from "vinext/shims/font-local";
 
-const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
+const futura = localFont({
+  src: [
+    { path: "./FuturaLT-CondensedMedium.ttf", weight: "500", style: "normal" },
+    { path: "./FuturaLT-CondensedExtraBold.ttf", weight: "800", style: "bold" },
+  ],
+  variable: "--font-futura",
+});
 
 export const metadata: Metadata = {
   title: "vinext on Cloudflare Workers",
@@ -15,13 +21,9 @@ export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html
-      lang="en"
-      className={cn("font-sans", inter.variable)}
-      suppressHydrationWarning
-    >
+    <html lang="en" className={cn(futura.variable)} suppressHydrationWarning>
       <body>
-        <ThemeProvider> {children}</ThemeProvider>
+        <ThemeProvider>{children}</ThemeProvider>
       </body>
     </html>
   );
