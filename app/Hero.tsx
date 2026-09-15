@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image";
+import { ChevronDown } from "lucide-react";
 import type { DetailedHTMLProps, VideoHTMLAttributes } from "react";
 
 const fillScreenStyle = {
@@ -36,6 +37,18 @@ export default function Hero() {
           style={{ filter: "drop-shadow(1px 1px 1px #000000)" }}
         />
       </div>
+
+      <button
+        type="button"
+        aria-label="Scroll down"
+        onClick={() =>
+          window.scrollTo({ top: window.innerHeight, behavior: "smooth" })
+        }
+        className="kill-animation-reduced-motion absolute bottom-8 right-8 z-10 text-white animate-bounce cursor-pointer"
+        style={{ filter: "drop-shadow(1px 1px 1px #000000)" }}
+      >
+        <ChevronDown size={40} strokeWidth={2} />
+      </button>
     </div>
   );
 }

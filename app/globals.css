@@ -76,6 +76,9 @@ a {
   #reduced-motion-hero {
     display: inherit;
   }
+  .no-animation-reduced-motion {
+    animation: none !important;
+  }
 }
 
 /*
