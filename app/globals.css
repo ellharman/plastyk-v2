@@ -60,6 +60,14 @@ main {
   overflow-x: hidden;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: bold;
+}
+
+b {
+  color: var(--color-plastyk-blush-pink)
+}
+
 /*
   If the user has expressed their preference for
   reduced motion, then don't use animations on buttons.
