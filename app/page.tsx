@@ -1,3 +1,4 @@
+import Nav from "./_common/Nav";
 import Hero from "./Hero";
 
 const links = [
@@ -17,6 +18,7 @@ export default function Home() {
   return (
     <main>
         <Hero />
+        <Nav />
     </main>
     // <main className="min-h-screen bg-slate-50 px-6 py-10 text-slate-950">
     //   <section className="mx-auto flex max-w-4xl flex-col gap-8">
