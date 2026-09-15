@@ -7,6 +7,7 @@ import { imagesOptimizer } from "@vinext/cloudflare/images/images-optimizer";
 import path from "path";
 
 export default defineConfig({
+  server: {host: "0.0.0.0"},
   plugins: [
     vinext({
       cache: { data: kvDataAdapter(), cdn: cdnAdapter() },

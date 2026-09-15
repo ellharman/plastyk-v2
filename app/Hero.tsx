@@ -31,10 +31,8 @@ export default function Hero() {
         <Image
           src="/img/logo-white-red.png"
           alt=""
-          width={400}
-          height={160}
+          unoptimized
           className="max-w-min w-72 md:w-2xl h-auto"
-          style={{ filter: "drop-shadow(1px 1px 1px #000000)" }}
         />
       </div>
 

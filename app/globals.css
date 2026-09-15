@@ -60,10 +60,6 @@ main {
   overflow-x: hidden;
 }
 
-a {
-  color: inherit;
-}
-
 /*
   If the user has expressed their preference for
   reduced motion, then don't use animations on buttons.
