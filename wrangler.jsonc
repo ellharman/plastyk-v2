@@ -20,7 +20,10 @@
   "kv_namespaces": [
     {
       "binding": "VINEXT_KV_CACHE",
-      "id": "<your-kv-namespace-id>"
+      "id": "5eb2cfb4a51948498a53574658a28c31",
+      
+      // Optional: preview_id used when running `wrangler dev` for local dev
+      "preview_id": "5eb2cfb4a51948498a53574658a28c31"
     }
   ]
 }
