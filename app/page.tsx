@@ -1,6 +1,7 @@
 import Nav from "./_common/Nav";
 import ChannelCta from "./ChannelCta";
 import Hero from "./Hero";
+import SCEmbed from "./SCEmbed";
 
 const links = [
   {
@@ -20,8 +21,9 @@ export default function Home() {
     <main>
       <Hero />
       <Nav />
-      <div className="container px-4">
+      <div className="container md:w-2/3 px-8 py-4 flex-col gap-8 mx-auto flex">
         <ChannelCta />
+        <SCEmbed />
       </div>
     </main>
     // <main className="min-h-screen bg-slate-50 px-6 py-10 text-slate-950">
