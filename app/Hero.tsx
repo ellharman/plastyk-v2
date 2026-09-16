@@ -42,7 +42,7 @@ export default function Hero() {
         onClick={() =>
           window.scrollTo({ top: window.innerHeight, behavior: "smooth" })
         }
-        className="no-animation-reduced-motion absolute bottom-8 right-8 z-10 text-white animate-bounce cursor-pointer"
+        className="no-animation-reduced-motion absolute bottom-12 right-8 z-10 text-white animate-bounce cursor-pointer"
         style={{ filter: "drop-shadow(1px 1px 1px #000000)" }}
       >
         <ChevronDown size={40} strokeWidth={2} />
