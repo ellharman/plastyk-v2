@@ -22,7 +22,7 @@ export default function Events() {
 
   return (
     <div className="flex justify-center flex-col gap-8 items-center w-full mx-auto">
-      <h2 className="text-7xl text-plastyk-kiss-red">Upcoming</h2>
+      <h2 className="text-7xl text-plastyk-kiss-red">UPCOMING</h2>
       {upcomingEvent && (
         <Event
           key={upcomingEvent.assetPath}
@@ -30,7 +30,7 @@ export default function Events() {
           altText={upcomingEvent.altText}
         />
       )}
-      <h2 className="text-7xl text-plastyk-kiss-red">Previous</h2>
+      <h2 className="text-7xl text-plastyk-kiss-red">PREVIOUS</h2>
       <div className="grid grid-cols-1 gap-8 w-full justify-items-center md:grid-cols-2 lg:grid-cols-3">
         {pastEvents.map((event) => (
           <Event
