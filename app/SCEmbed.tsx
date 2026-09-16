@@ -1,3 +1,5 @@
+"use client";
+
 export default function SCEmbed() {
   return (
     <div className="w-full">

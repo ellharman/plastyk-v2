@@ -1,5 +1,6 @@
 import Nav from "./_common/Nav";
 import ChannelCta from "./ChannelCta";
+import Events from "./Events";
 import Hero from "./Hero";
 import SCEmbed from "./SCEmbed";
 
@@ -24,6 +25,7 @@ export default function Home() {
       <div className="container md:w-2/3 px-8 py-4 flex-col gap-8 mx-auto flex">
         <ChannelCta />
         <SCEmbed />
+        <Events />
       </div>
     </main>
     // <main className="min-h-screen bg-slate-50 px-6 py-10 text-slate-950">
