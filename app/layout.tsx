@@ -6,8 +6,21 @@ import localFont from "vinext/shims/font-local";
 
 const futura = localFont({
   src: [
-    { path: "./FuturaLT-CondensedMedium.ttf", weight: "500", style: "normal" },
-    { path: "./FuturaLT-CondensedExtraBold.ttf", weight: "800", style: "bold" },
+    // Light (300)
+    { path: "./FuturaLT-CondensedLight.woff2", weight: "300", style: "normal" },
+    { path: "./FuturaLT-CondensedLightObl.woff2", weight: "300", style: "italic" },
+
+    // Medium (500)
+    { path: "./FuturaLT-Condensed.woff2", weight: "500", style: "normal" },
+    { path: "./FuturaLT-CondensedOblique.woff2", weight: "500", style: "italic" },
+
+    // Bold (700)
+    { path: "./FuturaLT-CondensedBold.woff2", weight: "700", style: "normal" },
+    { path: "./FuturaLT-CondensedBoldOblique.woff2", weight: "700", style: "italic" },
+
+    // Extra Bold (800)
+    { path: "./FuturaLT-CondensedExtraBold.woff2", weight: "800", style: "normal" },
+    { path: "./FuturaLT-CondExtraBoldObl.woff2", weight: "800", style: "italic" },
   ],
   variable: "--font-futura",
 });
