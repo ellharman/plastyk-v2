@@ -22,7 +22,7 @@ export default function Home() {
     <main>
       <Hero />
       <Nav />
-      <div className="container md:w-2/3 px-8 py-4 flex-col gap-8 mx-auto flex">
+      <div className="container md:w-2/3 px-8 pt-4 pb-12 flex-col gap-8 mx-auto flex">
         <ChannelCta />
         <SCEmbed />
         <Events />

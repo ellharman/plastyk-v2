@@ -1,15 +1,9 @@
-import fs from "fs";
-import path from "path";
 import Image from "next/image";
-import posterFiles from "@/public/data/posters.json";
+import eventJson from "@/public/events.json";
 
 function Event(data: EventProps) {
   return (
-    <Image
-      src={data.posterAssetPath}
-      alt={data.altText}
-      className="w-full"
-    />
+    <Image src={data.posterAssetPath} alt={data.altText} className="w-full" />
   );
 }
 
@@ -19,17 +13,28 @@ export type EventProps = {
 };
 
 export default function Events() {
-  
+  const events = [...eventJson];
+  const upcomingEvent = events.pop();
+  const pastEvents = events.reverse();
 
   return (
-    <>
-      {posterFiles.map((posterPath) => (
+    <div className="flex flex-col gap-8 items-center">
+      <h2 className="text-7xl text-plastyk-kiss-red mb-4">Upcoming</h2>
+      {upcomingEvent && (
         <Event
-          key={posterPath}
-          posterAssetPath={`/img/posters/${posterPath}`}
-          altText="Event Poster"
+          key={upcomingEvent.assetPath}
+          posterAssetPath={upcomingEvent.assetPath}
+          altText={upcomingEvent.altText}
+        />
+      )}
+      <h2 className="text-7xl text-plastyk-kiss-red mb-4">Previous</h2>
+      {pastEvents.map((event) => (
+        <Event
+          key={event.assetPath}
+          posterAssetPath={event.assetPath}
+          altText={event.altText}
         />
       ))}
-    </>
+    </div>
   );
 }

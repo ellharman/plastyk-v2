@@ -34,9 +34,8 @@
   },
   "type": "module",
   "scripts": {
-    "dev": "pnpm run prebuild && vinext dev",
-    "prebuild": "node scripts/generate-posters-list.mjs",
-    "build": "pnpm run prebuild && vinext build",
+    "dev": "vinext dev",
+    "build": "vinext build",
     "start": "wrangler dev --config dist/server/wrangler.json",
     "deploy": "vinext-cloudflare deploy --config dist/server/wrangler.json --experimental-warm-cdn-cache"
   }

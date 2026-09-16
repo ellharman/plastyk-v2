@@ -1,0 +1,13 @@
+[
+  { "assetPath": "/img/posters/1.jpg", "altText": "alt text 1"},
+  { "assetPath": "/img/posters/2.png", "altText": "alt text 2"},
+  { "assetPath": "/img/posters/3.png", "altText": "alt text 3"},
+  { "assetPath": "/img/posters/4.png", "altText": "alt text 4"},
+  { "assetPath": "/img/posters/5.jpg", "altText": "alt text 5"},
+  { "assetPath": "/img/posters/6.png", "altText": "alt text 6"},
+  { "assetPath": "/img/posters/7.png", "altText": "alt text 7"},
+  { "assetPath": "/img/posters/8.jpg", "altText": "alt text 8"},
+  { "assetPath": "/img/posters/9.jpg", "altText": "alt text 9"},
+  { "assetPath": "/img/posters/10.jpg", "altText": "alt text 10"},
+  { "assetPath": "/img/posters/11.jpg", "altText": "alt text 11"}
+]
