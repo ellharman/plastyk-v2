@@ -68,6 +68,11 @@ b {
   color: var(--color-plastyk-blush-pink)
 }
 
+.link {
+  text-decoration: underline;
+  text-decoration-color: var(--color-plastyk-blush-pink);
+}
+
 /*
   If the user has expressed their preference for
   reduced motion, then don't use animations on buttons.

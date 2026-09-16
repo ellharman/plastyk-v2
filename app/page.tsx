@@ -1,4 +1,5 @@
 import Nav from "./_common/Nav";
+import ChannelCta from "./ChannelCta";
 import Hero from "./Hero";
 
 const links = [
@@ -17,8 +18,11 @@ export const revalidate = 300;
 export default function Home() {
   return (
     <main>
-        <Hero />
-        <Nav />
+      <Hero />
+      <Nav />
+      <div className="container px-4">
+        <ChannelCta />
+      </div>
     </main>
     // <main className="min-h-screen bg-slate-50 px-6 py-10 text-slate-950">
     //   <section className="mx-auto flex max-w-4xl flex-col gap-8">

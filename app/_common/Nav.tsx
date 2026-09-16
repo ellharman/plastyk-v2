@@ -9,7 +9,7 @@ import {
 
 export default function Nav() {
   return (
-      <NavigationMenu className="w-full text-nowrap">
+      <NavigationMenu className="w-full text-nowrap mb-2">
         <NavigationMenuList className="">
           <NavigationMenuItem>
             <NavigationMenuLink href="/about" className="">
