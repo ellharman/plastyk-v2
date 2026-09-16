@@ -19,10 +19,10 @@ export const revalidate = 300;
 
 export default function Home() {
   return (
-    <main>
+    <main className="flex flex-col gap-8">
       <Hero />
       <Nav />
-      <div className="container md:w-2/3 px-8 pt-4 pb-12 flex-col gap-8 mx-auto flex">
+      <div className="flex flex-col container md:w-2/3 px-8 pb-12 gap-8 mx-auto">
         <ChannelCta />
         <SCEmbed />
         <Events />

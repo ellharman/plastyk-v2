@@ -9,11 +9,11 @@ import {
 
 export default function Nav() {
   return (
-      <NavigationMenu className="w-full text-nowrap mb-2">
-        <NavigationMenuList className="">
+      <NavigationMenu align="center" className="w-full min-w-full text-nowrap">
+        <NavigationMenuList className="w-full justify-center gap-4">
           <NavigationMenuItem>
             <NavigationMenuLink href="/about" className="">
-              ABOUT / GALLERY
+              ABOUT
             </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem>
@@ -23,7 +23,7 @@ export default function Nav() {
           </NavigationMenuItem>
           <NavigationMenuItem>
             <NavigationMenuLink href="/accessibility" className=" ">
-              ACCESS INFO
+              ACCESS
             </NavigationMenuLink>
           </NavigationMenuItem>
         </NavigationMenuList>
