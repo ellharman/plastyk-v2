@@ -7,23 +7,13 @@ import {
   NavigationMenuList,
 } from "@/components/ui/navigation-menu";
 
-function ChannelCta() {
-  return (
-    <h2 className="text-2xl">
-      Join our <b>BROADCAST CHANNEL</b> 
-    </h2>
-  )
-}
-
 export default function Nav() {
   return (
-    <>
-    <ChannelCta />
       <NavigationMenu className="w-full text-nowrap">
         <NavigationMenuList className="">
           <NavigationMenuItem>
             <NavigationMenuLink href="/about" className="">
-              ABOUT/GALLERY
+              ABOUT / GALLERY
             </NavigationMenuLink>
           </NavigationMenuItem>
           <NavigationMenuItem>
@@ -38,6 +28,5 @@ export default function Nav() {
           </NavigationMenuItem>
         </NavigationMenuList>
       </NavigationMenu>
-    </>
   );
 }
