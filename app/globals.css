@@ -9,7 +9,7 @@
   background: #f8fafc;
   color: #111827;
   font-family: var(--font-sans);
-  --background: oklch(1 0 0);
+  --background: oklch(0.984 0.003 247.86);
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
@@ -46,6 +46,19 @@
 html {
   height: 100%;
   background-color: var(--color-background);
+  overflow-y: scroll; /* was: auto + scrollbar-gutter: stable */
+  scrollbar-color: var(--color-foreground) var(--color-background);
+}
+
+html::-webkit-scrollbar {
+  width: 12px;
+}
+html::-webkit-scrollbar-track {
+  background: var(--color-background);
+}
+html::-webkit-scrollbar-thumb {
+  background-color: var(--color-foreground);
+  border-radius: 999px;
 }
 
 body {
@@ -60,12 +73,17 @@ main {
   overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: bold;
 }
 
 b {
-  color: var(--color-plastyk-blush-pink)
+  color: var(--color-plastyk-blush-pink);
 }
 
 .link {
