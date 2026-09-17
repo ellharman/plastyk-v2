@@ -1,7 +1,6 @@
 import Nav from "./_common/Nav";
 import ChannelCta from "./ChannelCta";
 import Events from "./Events";
-import Hero from "./Hero";
 import SCEmbed from "./SCEmbed";
 
 const links = [
@@ -19,8 +18,7 @@ export const revalidate = 300;
 
 export default function Home() {
   return (
-    <main className="flex flex-col gap-8">
-      <Hero />
+    <main className="flex flex-col gap-8 pt-8">
       <Nav />
       <div className="flex flex-col container md:w-2/3 px-8 pb-12 gap-8 mx-auto">
         <ChannelCta />

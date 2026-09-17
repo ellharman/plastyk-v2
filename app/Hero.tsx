@@ -1,7 +1,6 @@
 "use client";
 
 import Image from "next/image";
-import { ChevronDown } from "lucide-react";
 import type { DetailedHTMLProps, VideoHTMLAttributes } from "react";
 
 const fillScreenStyle = {
@@ -13,8 +12,15 @@ const fillScreenStyle = {
 
 export default function Hero() {
   return (
-    <div className="relative w-screen h-screen overflow-hidden">
-      <video autoPlay muted playsInline loop style={fillScreenStyle}>
+    <div className="pointer-events-none fixed inset-0 z-0 overflow-hidden">
+      <video
+        autoPlay
+        muted
+        playsInline
+        loop
+        className="opacity-20"
+        style={fillScreenStyle}
+      >
         <source src="/video/hero.mp4" type="video/mp4" />
       </video>
       <Image
@@ -23,30 +29,10 @@ export default function Hero() {
         alt=""
         quality={100}
         fill
+        className="opacity-20"
         unoptimized
         preload
       />
-
-      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10 text-center text-white">
-        <Image
-          src="/img/logo-white-red.png"
-          alt=""
-          unoptimized
-          className="max-w-min w-72 md:w-2xl h-auto"
-        />
-      </div>
-
-      <button
-        type="button"
-        aria-label="Scroll down"
-        onClick={() =>
-          window.scrollTo({ top: window.innerHeight, behavior: "smooth" })
-        }
-        className="no-animation-reduced-motion absolute bottom-12 right-8 z-10 text-white animate-bounce cursor-pointer"
-        style={{ filter: "drop-shadow(1px 1px 1px #000000)" }}
-      >
-        <ChevronDown size={40} strokeWidth={2} />
-      </button>
     </div>
   );
 }

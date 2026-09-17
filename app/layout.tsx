@@ -4,6 +4,7 @@ import { cn } from "@/lib/utils";
 import ThemeProvider from "./theme";
 import localFont from "vinext/shims/font-local";
 import Footer from "./_common/Footer";
+import Hero from "./Hero";
 
 const futura = localFont({
   src: [
@@ -66,8 +67,11 @@ export default function RootLayout({
     <html lang="en" className={cn(futura.variable)} suppressHydrationWarning>
       <body className="min-h-screen flex flex-col">
         <ThemeProvider>
-          <div className="flex-1">{children}</div>
-          <Footer />
+          <Hero />
+          <div className="relative z-10 flex-1">{children}</div>
+          <div className="relative z-10">
+            <Footer />
+          </div>
         </ThemeProvider>
       </body>
     </html>
