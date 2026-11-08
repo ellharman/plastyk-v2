@@ -87,6 +87,7 @@ b {
 }
 
 .link {
+  color: var(--color-plastyk-blush-pink);
   text-decoration: underline;
   text-decoration-color: var(--color-plastyk-blush-pink);
 }
