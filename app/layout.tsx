@@ -65,6 +65,7 @@ export default function RootLayout({
 }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="en" className={cn(futura.variable)} suppressHydrationWarning>
+      <link rel="icon" href="/public/favicon.ico" sizes="any" />
       <body className="min-h-screen flex flex-col">
         <ThemeProvider>
           <div className="flex-1">{children}</div>
