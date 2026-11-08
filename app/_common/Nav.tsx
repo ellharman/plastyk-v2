@@ -59,7 +59,7 @@ export default function Nav() {
         </span>
         <NavigationMenuItem className="min-w-0">
           <NavigationMenuLink
-            href="/tickets"
+            href="https://www.outsavvy.com/organiser/plastyk#live_events:~:text=on%20OutSavvy%20recently-,Events,-UPCOMING%201"
             aria-current={isActive("/tickets") ? "page" : undefined}
             className={`px-1.5 py-2 text-2xl min-[400px]:text-xl sm:p-3 sm:text-2xl md:text-4xl ${
               isActive("/tickets") ? "link" : ""
