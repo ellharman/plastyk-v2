@@ -17,7 +17,7 @@ export default function Footage() {
 
   return (
     <div className="flex justify-center flex-col gap-8 items-center w-full mx-auto">
-      <h2 className="text-7xl text-plastyk-kiss-red text-bold">FOOTAGE</h2>
+      <h2 className="text-6xl text-plastyk-kiss-red text-bold">FOOTAGE</h2>
       {videos.map((video: VidProps) => (
         <div key={video.assetPath} className="w-full max-w-4xl mx-auto rounded-sm overflow-hidden">
           {Vid(video.assetPath)}

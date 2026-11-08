@@ -1,7 +1,7 @@
 export default function Bio() {
   return (
     <div className="flex justify-center flex-col gap-8 items-center w-full mx-auto">
-      <h2 className="text-7xl text-plastyk-kiss-red text-bold">BIO</h2>
+      <h2 className="text-6xl text-plastyk-kiss-red text-bold">BIO</h2>
 
       <ul className="text-left gap-4 flex flex-col w-full max-w-4xl">
         <li className="text-xl font-semibold">PLASTYK is London's bass rave for dykes: hedonistic and unapologetically sexy.</li>
