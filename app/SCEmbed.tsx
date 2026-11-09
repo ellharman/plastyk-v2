@@ -2,7 +2,7 @@
 
 export default function SCEmbed() {
   return (
-    <div className="w-full">
+    <div className="mx-auto w-full max-w-4xl">
       <div className="relative w-full overflow-hidden rounded-sm" style={{ aspectRatio: "16 / 9", minHeight: 450 }}>
         <iframe
           title="SoundCloud playlist"

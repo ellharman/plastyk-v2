@@ -5,7 +5,7 @@ export default function AccessInfo() {
         <h2 className="text-4xl sm:text-5xl leading-tight text-plastyk-kiss-red font-bold text-center">
           VENUE MOT
         </h2>
-        <p className="w-full max-w-3xl text-left">
+        <p className="w-full max-w-4xl text-left">
           Events take place in one or both rooms. Single room events use Unit
           20.
         </p>
@@ -15,7 +15,7 @@ export default function AccessInfo() {
               UNIT 18
             </h3>
             <div className="flex flex-col items-center gap-8 w-full">
-              <section className="flex flex-col gap-3 w-full max-w-3xl">
+              <section className="flex flex-col gap-3 w-full max-w-4xl">
                 <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Entrance
                 </h4>
@@ -31,7 +31,7 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-3 w-full max-w-3xl">
+              <section className="flex flex-col gap-3 w-full max-w-4xl">
                 <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Main space
                 </h4>
@@ -49,7 +49,7 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-3 w-full max-w-3xl">
+              <section className="flex flex-col gap-3 w-full max-w-4xl">
                 <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Smoking area
                 </h4>
@@ -64,7 +64,7 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-3 w-full max-w-3xl">
+              <section className="flex flex-col gap-3 w-full max-w-4xl">
                 <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Toilets
                 </h4>
@@ -83,7 +83,7 @@ export default function AccessInfo() {
               UNIT 20
             </h3>
             <div className="flex flex-col items-center gap-8 w-full">
-              <section className="flex flex-col gap-3 w-full max-w-3xl">
+              <section className="flex flex-col gap-3 w-full max-w-4xl">
                 <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Approach
                 </h4>
@@ -94,7 +94,7 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-3 w-full max-w-3xl">
+              <section className="flex flex-col gap-3 w-full max-w-4xl">
                 <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Entrance
                 </h4>
@@ -106,7 +106,7 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-3 w-full max-w-3xl">
+              <section className="flex flex-col gap-3 w-full max-w-4xl">
                 <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Main space
                 </h4>
@@ -134,7 +134,7 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-3 w-full max-w-3xl">
+              <section className="flex flex-col gap-3 w-full max-w-4xl">
                 <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Smoking area
                 </h4>
@@ -149,7 +149,7 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-3 w-full max-w-3xl">
+              <section className="flex flex-col gap-3 w-full max-w-4xl">
                 <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Toilets
                 </h4>
@@ -174,7 +174,7 @@ export default function AccessInfo() {
               ADDITIONAL INFORMATION
             </h3>
             <div className="flex flex-col items-center gap-8 w-full">
-              <section className="flex flex-col gap-3 w-full max-w-3xl">
+              <section className="flex flex-col gap-3 w-full max-w-4xl">
                 <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Portable toilets
                 </h4>
@@ -185,7 +185,7 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-3 w-full max-w-3xl">
+              <section className="flex flex-col gap-3 w-full max-w-4xl">
                 <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Both rooms in use
                 </h4>
@@ -203,7 +203,7 @@ export default function AccessInfo() {
               TRAVEL
             </h3>
             <div className="flex flex-col items-center gap-8 w-full">
-              <section className="flex flex-col gap-3 w-full max-w-3xl">
+              <section className="flex flex-col gap-3 w-full max-w-4xl">
                 <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Getting there
                 </h4>
@@ -245,7 +245,7 @@ export default function AccessInfo() {
         <div className="flex flex-col items-center gap-8 w-full">
           <div className="flex flex-col items-center gap-4 w-full">
             <div className="flex flex-col items-center gap-8 w-full">
-              <section className="flex flex-col gap-3 w-full max-w-3xl">
+              <section className="flex flex-col gap-3 w-full max-w-4xl">
                 <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Approach
                 </h4>
@@ -258,7 +258,7 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-3 w-full max-w-3xl">
+              <section className="flex flex-col gap-3 w-full max-w-4xl">
                 <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Entrance and bar
                 </h4>
@@ -274,7 +274,7 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-3 w-full max-w-3xl">
+              <section className="flex flex-col gap-3 w-full max-w-4xl">
                 <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Main club space
                 </h4>
@@ -288,7 +288,7 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-3 w-full max-w-3xl">
+              <section className="flex flex-col gap-3 w-full max-w-4xl">
                 <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Upstairs seating area
                 </h4>
@@ -300,7 +300,7 @@ export default function AccessInfo() {
                   <li>The area includes couches, chairs, and armchairs.</li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-3 w-full max-w-3xl">
+              <section className="flex flex-col gap-3 w-full max-w-4xl">
                 <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Toilets
                 </h4>
@@ -325,7 +325,7 @@ export default function AccessInfo() {
                   <li>The shared sink area has 2 sinks at a height of 92cm.</li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-3 w-full max-w-3xl">
+              <section className="flex flex-col gap-3 w-full max-w-4xl">
                 <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Outdoor smoking area
                 </h4>
@@ -340,7 +340,7 @@ export default function AccessInfo() {
           </div>
           <div className="flex flex-col items-center gap-4 w-full">
             <div className="flex flex-col items-center gap-8 w-full">
-              <section className="flex flex-col gap-3 w-full max-w-3xl">
+              <section className="flex flex-col gap-3 w-full max-w-4xl">
                 <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Getting there
                 </h4>
