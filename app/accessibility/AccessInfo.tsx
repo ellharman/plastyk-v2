@@ -1,23 +1,25 @@
 export default function AccessInfo() {
   return (
-    <div className="flex justify-center flex-col gap-32 items-center w-full mx-auto">
-      <div className="flex flex-col items-center gap-8 w-full">
-        <h2 className="text-6xl text-plastyk-kiss-red font-bold text-center">
+    <div className="flex flex-col gap-16 sm:gap-20 items-center w-full mx-auto text-lg leading-relaxed">
+      <div className="flex flex-col items-center gap-6 w-full">
+        <h2 className="text-4xl sm:text-5xl leading-tight text-plastyk-kiss-red font-bold text-center">
           VENUE MOT
         </h2>
-        <p className="text-xl w-full max-w-4xl text-left">
+        <p className="w-full max-w-3xl text-left">
           Events take place in one or both rooms. Single room events use Unit
           20.
         </p>
-        <div className="flex flex-col items-center gap-20 w-full">
-          <div className="flex flex-col items-center gap-6 w-full">
-            <h3 className="text-4xl text-plastyk-kiss-red font-bold text-center">
+        <div className="flex flex-col items-center gap-8 w-full">
+          <div className="flex flex-col items-center gap-4 w-full">
+            <h3 className="text-2xl sm:text-3xl leading-tight text-plastyk-kiss-red font-bold text-center">
               UNIT 18
             </h3>
-            <div className="flex flex-col items-center gap-12 w-full">
-              <section className="flex flex-col gap-4 w-full max-w-4xl">
-                <h4 className="text-2xl font-semibold">Entrance</h4>
-                <ul className="text-left gap-3 flex flex-col w-full">
+            <div className="flex flex-col items-center gap-8 w-full">
+              <section className="flex flex-col gap-3 w-full max-w-3xl">
+                <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
+                  Entrance
+                </h4>
+                <ul className="list-disc pl-5 text-left gap-2 flex flex-col w-full">
                   <li>
                     66cm wide, opens inward, 11cm step. Hallway 82cm wide →
                     second door 67cm, step free.
@@ -29,9 +31,11 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-4 w-full max-w-4xl">
-                <h4 className="text-2xl font-semibold">Main space</h4>
-                <ul className="text-left gap-3 flex flex-col w-full">
+              <section className="flex flex-col gap-3 w-full max-w-3xl">
+                <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
+                  Main space
+                </h4>
+                <ul className="list-disc pl-5 text-left gap-2 flex flex-col w-full">
                   <li>
                     Step free to the bar and toilets. Bar height 120cm. DJ booth
                     at back centre.
@@ -45,9 +49,11 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-4 w-full max-w-4xl">
-                <h4 className="text-2xl font-semibold">Smoking area</h4>
-                <ul className="text-left gap-3 flex flex-col w-full">
+              <section className="flex flex-col gap-3 w-full max-w-3xl">
+                <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
+                  Smoking area
+                </h4>
+                <ul className="list-disc pl-5 text-left gap-2 flex flex-col w-full">
                   <li>
                     Door 86cm (step free) → hallway 104cm → second door 82cm
                     with 5cm step.
@@ -58,9 +64,11 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-4 w-full max-w-4xl">
-                <h4 className="text-2xl font-semibold">Toilets</h4>
-                <ul className="text-left gap-3 flex flex-col w-full">
+              <section className="flex flex-col gap-3 w-full max-w-3xl">
+                <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
+                  Toilets
+                </h4>
+                <ul className="list-disc pl-5 text-left gap-2 flex flex-col w-full">
                   <li>Door 82cm. Sink left, recessed (70cm), height 99cm.</li>
                   <li>
                     4 cubicles, inward opening cowboy doors, 70cm wide, approx
@@ -70,23 +78,27 @@ export default function AccessInfo() {
               </section>
             </div>
           </div>
-          <div className="flex flex-col items-center gap-6 w-full">
-            <h3 className="text-4xl text-plastyk-kiss-red font-bold text-center">
+          <div className="flex flex-col items-center gap-4 w-full">
+            <h3 className="text-2xl sm:text-3xl leading-tight text-plastyk-kiss-red font-bold text-center">
               UNIT 20
             </h3>
-            <div className="flex flex-col items-center gap-12 w-full">
-              <section className="flex flex-col gap-4 w-full max-w-4xl">
-                <h4 className="text-2xl font-semibold">Approach</h4>
-                <ul className="text-left gap-3 flex flex-col w-full">
+            <div className="flex flex-col items-center gap-8 w-full">
+              <section className="flex flex-col gap-3 w-full max-w-3xl">
+                <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
+                  Approach
+                </h4>
+                <ul className="list-disc pl-5 text-left gap-2 flex flex-col w-full">
                   <li>
                     Pavement has obstacles. Clear pavement path approx 160cm
                     wide.
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-4 w-full max-w-4xl">
-                <h4 className="text-2xl font-semibold">Entrance</h4>
-                <ul className="text-left gap-3 flex flex-col w-full">
+              <section className="flex flex-col gap-3 w-full max-w-3xl">
+                <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
+                  Entrance
+                </h4>
+                <ul className="list-disc pl-5 text-left gap-2 flex flex-col w-full">
                   <li>Door opens outward with a 14cm step and incline.</li>
                   <li>
                     Hallway 100cm wide x 163cm long. Cloakroom left, height
@@ -94,9 +106,11 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-4 w-full max-w-4xl">
-                <h4 className="text-2xl font-semibold">Main space</h4>
-                <ul className="text-left gap-3 flex flex-col w-full">
+              <section className="flex flex-col gap-3 w-full max-w-3xl">
+                <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
+                  Main space
+                </h4>
+                <ul className="list-disc pl-5 text-left gap-2 flex flex-col w-full">
                   <li>
                     Second door 74cm, step free. Step free to the bar and
                     toilets.
@@ -120,9 +134,11 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-4 w-full max-w-4xl">
-                <h4 className="text-2xl font-semibold">Smoking area</h4>
-                <ul className="text-left gap-3 flex flex-col w-full">
+              <section className="flex flex-col gap-3 w-full max-w-3xl">
+                <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
+                  Smoking area
+                </h4>
+                <ul className="list-disc pl-5 text-left gap-2 flex flex-col w-full">
                   <li>
                     Door 89cm (step free) → hallway 105cm → second door 81cm
                     with 5cm step.
@@ -133,9 +149,11 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-4 w-full max-w-4xl">
-                <h4 className="text-2xl font-semibold">Toilets</h4>
-                <ul className="text-left gap-3 flex flex-col w-full">
+              <section className="flex flex-col gap-3 w-full max-w-3xl">
+                <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
+                  Toilets
+                </h4>
+                <ul className="list-disc pl-5 text-left gap-2 flex flex-col w-full">
                   <li>
                     Main door 70cm → sink area 130 x 160cm, sink height 100cm.
                   </li>
@@ -151,23 +169,27 @@ export default function AccessInfo() {
               </section>
             </div>
           </div>
-          <div className="flex flex-col items-center gap-6 w-full">
-            <h3 className="text-4xl text-plastyk-kiss-red font-bold text-center">
+          <div className="flex flex-col items-center gap-4 w-full">
+            <h3 className="text-2xl sm:text-3xl leading-tight text-plastyk-kiss-red font-bold text-center">
               ADDITIONAL INFORMATION
             </h3>
-            <div className="flex flex-col items-center gap-12 w-full">
-              <section className="flex flex-col gap-4 w-full max-w-4xl">
-                <h4 className="text-2xl font-semibold">Portable toilets</h4>
-                <ul className="text-left gap-3 flex flex-col w-full">
+            <div className="flex flex-col items-center gap-8 w-full">
+              <section className="flex flex-col gap-3 w-full max-w-3xl">
+                <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
+                  Portable toilets
+                </h4>
+                <ul className="list-disc pl-5 text-left gap-2 flex flex-col w-full">
                   <li>
                     2 portable toilets outside each unit. Standard size approx
                     115cm x 125cm. Each has a 14cm step.
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-4 w-full max-w-4xl">
-                <h4 className="text-2xl font-semibold">Both rooms in use</h4>
-                <ul className="text-left gap-3 flex flex-col w-full">
+              <section className="flex flex-col gap-3 w-full max-w-3xl">
+                <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
+                  Both rooms in use
+                </h4>
+                <ul className="list-disc pl-5 text-left gap-2 flex flex-col w-full">
                   <li>
                     Connecting the doorway between smoking areas is 90cm wide
                     and step free.
@@ -176,32 +198,34 @@ export default function AccessInfo() {
               </section>
             </div>
           </div>
-          <div className="flex flex-col items-center gap-6 w-full">
-            <h3 className="text-4xl text-plastyk-kiss-red font-bold text-center">
+          <div className="flex flex-col items-center gap-4 w-full">
+            <h3 className="text-2xl sm:text-3xl leading-tight text-plastyk-kiss-red font-bold text-center">
               TRAVEL
             </h3>
-            <p className="w-full max-w-4xl text-left">
-              Venue MOT is in an industrial area in South East London.
-            </p>
-            <div className="flex flex-col items-center gap-12 w-full">
-              <section className="flex flex-col gap-4 w-full max-w-4xl">
-                <h4 className="text-2xl font-semibold">Getting there</h4>
-                <ul className="text-left gap-3 flex flex-col w-full">
+            <div className="flex flex-col items-center gap-8 w-full">
+              <section className="flex flex-col gap-3 w-full max-w-3xl">
+                <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
+                  Getting there
+                </h4>
+                <ul className="list-disc pl-5 text-left gap-2 flex flex-col w-full">
                   <li>
-                    Surrey Quays railway station (Overground): 15–20 min walk.
+                    Venue MOT is in an industrial area in South East London.
+                  </li>
+                  <li>
+                    Surrey Quays railway station (Overground): 15-20 min walk.
                     Most common route. Pavements + industrial roads, not well
                     lit. Avoid walking alone at night.
                   </li>
                   <li>
-                    South Bermondsey railway station: 10–15 min walk. Uneven
+                    South Bermondsey railway station: 10-15 min walk. Uneven
                     surfaces, low lighting.
                   </li>
                   <li>
-                    Bermondsey Underground station (Jubilee line): 20–25 min
+                    Bermondsey Underground station (Jubilee line): 20-25 min
                     walk. Step free access, better lit.
                   </li>
                   <li>
-                    Buses: 5–10 min walk (Old Kent Road area), final stretch via
+                    Buses: 5-10 min walk (Old Kent Road area), final stretch via
                     industrial roads.
                   </li>
                   <li>
@@ -214,16 +238,18 @@ export default function AccessInfo() {
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center gap-8 w-full">
-        <h2 className="text-6xl text-plastyk-kiss-red font-bold text-center">
+      <div className="flex flex-col items-center gap-6 w-full">
+        <h2 className="text-4xl sm:text-5xl leading-tight text-plastyk-kiss-red font-bold text-center">
           DISTILLERY N17
         </h2>
-        <div className="flex flex-col items-center gap-20 w-full">
-          <div className="flex flex-col items-center gap-6 w-full">
-            <div className="flex flex-col items-center gap-12 w-full">
-              <section className="flex flex-col gap-4 w-full max-w-4xl">
-                <h4 className="text-2xl font-semibold">Approach</h4>
-                <ul className="text-left gap-3 flex flex-col w-full">
+        <div className="flex flex-col items-center gap-8 w-full">
+          <div className="flex flex-col items-center gap-4 w-full">
+            <div className="flex flex-col items-center gap-8 w-full">
+              <section className="flex flex-col gap-3 w-full max-w-3xl">
+                <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
+                  Approach
+                </h4>
+                <ul className="list-disc pl-5 text-left gap-2 flex flex-col w-full">
                   <li>
                     Through industrial area. There may be obstacles on the path.
                   </li>
@@ -232,9 +258,11 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-4 w-full max-w-4xl">
-                <h4 className="text-2xl font-semibold">Entrance and bar</h4>
-                <ul className="text-left gap-3 flex flex-col w-full">
+              <section className="flex flex-col gap-3 w-full max-w-3xl">
+                <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
+                  Entrance and bar
+                </h4>
+                <ul className="list-disc pl-5 text-left gap-2 flex flex-col w-full">
                   <li>
                     The front door is 146cm wide with a slight slant and no
                     step. It opens directly into a seating area with couch and
@@ -246,9 +274,11 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-4 w-full max-w-4xl">
-                <h4 className="text-2xl font-semibold">Main club space</h4>
-                <ul className="text-left gap-3 flex flex-col w-full">
+              <section className="flex flex-col gap-3 w-full max-w-3xl">
+                <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
+                  Main club space
+                </h4>
+                <ul className="list-disc pl-5 text-left gap-2 flex flex-col w-full">
                   <li>
                     The cloakroom is immediately on the right upon entry, with
                     counter heights of 100cm (lower) and 117cm (higher).
@@ -258,11 +288,11 @@ export default function AccessInfo() {
                   </li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-4 w-full max-w-4xl">
-                <h4 className="text-2xl font-semibold">
+              <section className="flex flex-col gap-3 w-full max-w-3xl">
+                <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
                   Upstairs seating area
                 </h4>
-                <ul className="text-left gap-3 flex flex-col w-full">
+                <ul className="list-disc pl-5 text-left gap-2 flex flex-col w-full">
                   <li>
                     The seating area is located on the left side of the main
                     room and is accessed via 13 steps, each 23cm high.
@@ -270,16 +300,18 @@ export default function AccessInfo() {
                   <li>The area includes couches, chairs, and armchairs.</li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-4 w-full max-w-4xl">
-                <h4 className="text-2xl font-semibold">Toilets</h4>
-                <ul className="text-left gap-3 flex flex-col w-full">
+              <section className="flex flex-col gap-3 w-full max-w-3xl">
+                <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
+                  Toilets
+                </h4>
+                <ul className="list-disc pl-5 text-left gap-2 flex flex-col w-full">
                   <li>
                     The toilets are located underneath the seating area on the
                     left side of the main room.
                   </li>
                   <li>
                     The entrance is a cowboy-style door opening inwards, 89cm
-                    wide. There is a urinal area with 2–3 positions.
+                    wide. There is a urinal area with 2-3 positions.
                   </li>
                   <li>
                     There are 4 small cubicles with doors 74cm wide opening
@@ -293,9 +325,11 @@ export default function AccessInfo() {
                   <li>The shared sink area has 2 sinks at a height of 92cm.</li>
                 </ul>
               </section>
-              <section className="flex flex-col gap-4 w-full max-w-4xl">
-                <h4 className="text-2xl font-semibold">Outdoor smoking area</h4>
-                <ul className="text-left gap-3 flex flex-col w-full">
+              <section className="flex flex-col gap-3 w-full max-w-3xl">
+                <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
+                  Outdoor smoking area
+                </h4>
+                <ul className="list-disc pl-5 text-left gap-2 flex flex-col w-full">
                   <li>
                     The smoking area is located at the front of the venue. It is
                     partially covered and includes tables and benches.
@@ -304,11 +338,13 @@ export default function AccessInfo() {
               </section>
             </div>
           </div>
-          <div className="flex flex-col items-center gap-6 w-full">
-            <div className="flex flex-col items-center gap-12 w-full">
-              <section className="flex flex-col gap-4 w-full max-w-4xl">
-                <h4 className="text-2xl font-semibold">Getting there</h4>
-                <ul className="text-left gap-3 flex flex-col w-full">
+          <div className="flex flex-col items-center gap-4 w-full">
+            <div className="flex flex-col items-center gap-8 w-full">
+              <section className="flex flex-col gap-3 w-full max-w-3xl">
+                <h4 className="text-xl sm:text-2xl leading-tight font-semibold">
+                  Getting there
+                </h4>
+                <ul className="list-disc pl-5 text-left gap-2 flex flex-col w-full">
                   <li>
                     The venue is located in Tottenham Hale, within an industrial
                     area. The surrounding streets are generally wide and flat,
@@ -317,7 +353,7 @@ export default function AccessInfo() {
                   <li>
                     The closest station is Tottenham Hale station (Victoria
                     line, National Rail, Stansted Express), approximately a
-                    12–18 minute walk from the venue. This is the most direct
+                    12-18 minute walk from the venue. This is the most direct
                     route and is generally flat.
                   </li>
                 </ul>
