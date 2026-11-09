@@ -3,6 +3,8 @@ import Bio from "./Bio";
 import Footage from "./Footage";
 import Gallery from "./Gallery";
 
+export const revalidate = 300;
+
 export default function About() {
   return (
     <main className="flex flex-col gap-8 pt-8">
